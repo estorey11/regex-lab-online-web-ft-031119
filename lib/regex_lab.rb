@@ -24,4 +24,8 @@ end
 
 def valid_phone_number?(phone)
   if phone.match(//)
+    true 
+  else
+    false
+  end
 end
